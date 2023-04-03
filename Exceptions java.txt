@@ -1,6 +1,6 @@
 Exceptions java
 
-Definição: são classe que dispõe de métodos para tratar possíveis erros que podem surgir no meio do código interrompendo a sua execução ou executando aplicação de uma forma inesperada.
+Definição: são classes que dispõe de métodos para tratar possíveis erros que podem surgir no meio do código interrompendo a sua execução ou executando aplicação de uma forma inesperada.
 
 5 principais:
 
