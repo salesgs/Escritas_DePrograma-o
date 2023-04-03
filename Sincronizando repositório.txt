@@ -1,0 +1,17 @@
+Sincronizando repositório local com repositório remoto do gitHub.
+
+
+git init: para trasnforma a pasta do projeto em um repositório local do git.Esse comando irá criar uma pasta .git, essa nova pasta irá armazenar todas as versões de arquvios.
+
+Adicionando uma Origin para fazer a sincronização entre os dois.
+
+git remote add origin https://github.com/salesgs/Escritas_DePrograma-o.git
+
+Esse comando acima conecta o repositório local com o remoto do gitHub.
+
+git status: para saber as alterações dentro da pasta
+
+adicionando o arquvio para ser monitorado mudando o estado untracked usamos o comando abaixo
+
+git add
+
