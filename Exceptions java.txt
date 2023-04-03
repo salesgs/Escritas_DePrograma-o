@@ -1,0 +1,27 @@
+Exceptions java
+
+Definição: são classe que dispõe de métodos para tratar possíveis erros que podem surgir no meio do código interrompendo a sua execução ou executando aplicação de uma forma inesperada.
+
+5 principais:
+
+1-NumberFormatException 
+
+Ocorre quando eu tento a inserção de um dado que difere do tipo da sua declaração. Exemplo quando eu tento salvar um dado do tipo String dentro de um identifacador do tipo inteiro.
+
+
+2-ArithmeticException
+
+Ocorre quando eu tento a divisão de um número "inteiro" pelo valor 0, isso dará um resultado infinito disparando essa classe.
+
+3-IndexOutOfBounds
+
+Ocorre quando dentro de um agregado, "array,vetor", eu tento fazer referência de um índice ainda inexistente, caso isso aconteça essa classe é invocada.
+
+4-NullPointerException
+
+Ocorre quando eu tento fazer a referência de uma representação de uma classe nessa caso o "objeto", porém esse objeto ainda não foi instânciado, caso isso aconteça essa classe é invocada.
+
+
+5-ClassNotFoundException
+
+Ocorre quando a JVM (Java Virtual Machine) máquina virtual do java. Tenta inicializar uma classe ainda não definida. Caso isso aconteça essa classe será invocada.
