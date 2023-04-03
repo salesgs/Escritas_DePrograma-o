@@ -11,7 +11,14 @@ Esse comando acima conecta o repositório local com o remoto do gitHub.
 
 git status: para saber as alterações dentro da pasta
 
-adicionando o arquvio para ser monitorado mudando o estado untracked usamos o comando abaixo
+adicionando o arquvio para ser monitorado mudando o estado untracked usamos o comando abaixo:
 
 git add
 
+depois de adicionar o arquivo para ser gerenciado, devemos salvar o seu estado com o seguinte comando:
+
+git commit -m""
+
+depois para enviar usamos:
+
+git push -u origin master
