@@ -1,0 +1,13 @@
+Banco de dados fundamentos
+
+
+Toda aplicação utiliza variávies, identificadores que são responsáveis por armazenar e manipular dados.
+
+
+Porém essas variávies "identificadores" ficam na memória RAM do computador,memória essa que tem esss identificadores apagados quando o tempo de execução da aplicação é encerrada.
+
+Para que os dados não sejam perdidos, se faz nescessários realizar a persistência de dados em um banco de "dados".
+
+As primeiras persistência eram realizadas em arquivos de textos, e utilizam para implementação linguagens C e FORTAN. 
+
+Na forma que eram construidas ficaram conhecidas como aplicações monóliticas. Pois um computador servia como cadastro, e servidor dos dados do cadastro, e não nescessitava de outra aplicação de dados para o servir.
