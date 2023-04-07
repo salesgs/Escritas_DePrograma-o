@@ -11,3 +11,13 @@ Para que os dados não sejam perdidos, se faz nescessários realizar a persistê
 As primeiras persistência eram realizadas em arquivos de textos, e utilizam para implementação linguagens C e FORTAN. 
 
 Na forma que eram construidas ficaram conhecidas como aplicações monóliticas. Pois um computador servia como cadastro, e servidor dos dados do cadastro, e não nescessitava de outra aplicação de dados para o servir.
+
+Com o avanço dos negócios e a nescessidade da distribuição dos dados a estrutura monólitica ficou para trás.
+
+Partindo desse ponto veio uma nova solução, a implementação da estrutura "cliente-servidor". 
+
+aonde temos um cliente e um servidor de aplicação e banco de dados. Temos a estrutrua em três camadas cliente, servidor de aplicação e banco de dados.
+
+Com essa nova adoção a estrutura ficou mais complexa, pois essa implentação terá de lidar com: acessos simultâneos e conflitos, segurança e criptografia, acesso senhas e usuários e gerenciamento dos dados.
+
+Esse sistema é chamado de SGBD.
